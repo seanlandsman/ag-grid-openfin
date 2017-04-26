@@ -1,0 +1,16 @@
+{
+  "name": "ag-grid-openfin",
+  "version": "0.0.0",
+  "scripts": {
+    "simple-grid": "grunt serve",
+    "rich-grid": "grunt serve -example rich-grid",
+    "master-detail-single-app": "grunt serve -example master-detail-single-app"
+  },
+  "devDependencies": {
+    "@types/openfin": "^16.0.1",
+    "openfin-cli": "^1.1.5"
+  },
+  "dependencies": {
+    "ag-grid": "^9.0.3"
+  }
+}

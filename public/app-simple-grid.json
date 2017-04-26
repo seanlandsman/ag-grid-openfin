@@ -1,0 +1,20 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "ag-grid-openfin",
+        "url": "http://localhost:5000/examples/simple-grid/index.html",
+        "uuid": "ag-grid-openfin",
+        "applicationIcon": "http://localhost:5000/favicon.ico",
+        "autoShow": true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "beta"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "",
+        "icon": "http://localhost:5000/favicon.ico",
+        "name": "ag-grid-openfin"
+    }
+}
