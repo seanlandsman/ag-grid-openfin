@@ -23,6 +23,9 @@ function makeRequest(url) {
 }
 
 let loadStockFile = function (metric, stockSymbols) {
+    let noRowsMessage = document.querySelector('.center');
+    noRowsMessage.style.display="None";
+
     let svg = d3.select("svg");
     svg.selectAll("*").remove();
 

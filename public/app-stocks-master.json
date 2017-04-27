@@ -1,9 +1,9 @@
 {
     "devtools_port": 9090,
     "startup_app": {
-        "name": "ag-grid-master-detail",
-        "url": "http://localhost:8000/examples/master-detail-single-app/index.html",
-        "uuid": "ag-grid-master-detail",
+        "name": "ag-grid-stocks-master",
+        "url": "http://localhost:8000/examples/stocks-master-app/index.html",
+        "uuid": "ag-grid-stocks-master",
         "autoShow": true
     },
     "runtime": {
