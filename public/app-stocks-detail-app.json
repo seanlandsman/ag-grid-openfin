@@ -1,0 +1,19 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "ag-grid-stocks-detail",
+        "url": "http://localhost:8090/examples/stocks-detail-app/index.html",
+        "uuid": "ag-grid-stocks-detail",
+        "applicationIcon": "http://localhost:8090/favicon.ico",
+        "autoShow": true,
+        "contextMenu": true,
+        "accelerator.devtools": true,
+        "accelerator.reload": true,
+        "accelerator.reloadIgnoreCache": true
+    },
+    "runtime": {
+        "arguments": "--enable-crash-reporting --v=1",
+        "version": "beta"
+    },
+    "shortcut": {}
+}
