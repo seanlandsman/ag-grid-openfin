@@ -1,6 +1,6 @@
-#ag-Grid OpenFin Examples
+# ag-Grid OpenFin Examples
 
-##Installation
+## Installation
 
 - npm install
 
