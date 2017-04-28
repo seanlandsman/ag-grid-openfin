@@ -121,12 +121,12 @@ let loadStockFile = function (metric, stockSymbols) {
             .attr("fill", "#000")
             .text(metric);
 
-        let city = g.selectAll(".city")
+        let stock = g.selectAll(".stock")
             .data(stocks)
             .enter().append("g")
-            .attr("class", "city");
+            .attr("class", "stock");
 
-        city.append("path")
+        stock.append("path")
             .attr("class", "line")
             .attr("d", function (d) {
                 return line(d.values);
@@ -135,7 +135,7 @@ let loadStockFile = function (metric, stockSymbols) {
                 return z(d.id);
             });
 
-        city.append("text")
+        stock.append("text")
             .datum(function (d) {
                 return {id: d.id, value: d.values[0]};
             })
